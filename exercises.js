@@ -51,6 +51,17 @@ console.log(myAge);
  * Console.log your result.
 */
 
+function login(password){
+	
+	if(password==="test1234"){
+		return "Login Success!";
+	}else{
+			return "Login Failure!";
+		
+	}
+}
+var mylogin = login("test1234");
+console.log(mylogin);
 
 /*
  * #3
