@@ -76,7 +76,15 @@ console.log(mylogin);
  * Console.log your result.
 */
 
-
+function isGreaterThan(first, second){
+	if(first>second){
+		return "true";
+	}else{
+		return "false";
+	}
+}
+var myvalue = isGreaterThan(4, 3);
+console.log(myvalue);
 
 /*
  * #4
