@@ -98,7 +98,15 @@ console.log(myvalue);
  * Console.log your result.
 */
 
-
+function mustBeTrue(boo){
+	if(boo==="Michigan Football is best"){
+		return "true";
+	}else{
+		return "false;"
+	}
+}
+var myTeam = mustBeTrue("Michigan Football is best");
+console.log(myTeam);
 
 /*
  * #5
