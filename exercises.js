@@ -128,8 +128,9 @@ function bigBird(word){
 	}
 }
 
-var myWord = bigBird("damn");
+var myWord = bigBird("ono");
 console.log(myWord);
+
 /*
  * #6
  * Function - isEqual
@@ -143,7 +144,15 @@ console.log(myWord);
  * Console.log your result.
 */
 
-
+function isEqual(first, second){
+	if (first === second){
+		return "You look mahvelous!";
+	}else{
+		return "I don't know who you are anymore."
+	}
+}
+var myString = isEqual("cat", "sat");
+console.log(myString);
 /*
  * #7
  * Function - notEqual
