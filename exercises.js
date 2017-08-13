@@ -210,7 +210,19 @@ console.log(myMoney);
  * Console.log your result.
 */ 
 
+function dirty30(one, two, three){
+	if (one>30, two>30, three>30){
+		return "true";
+	}else{
+		return "false"
+	}
+}
+var num1 = 31;
+var num2 = 5;
+var num3 = 34;
 
+var myNumbers = dirty30("num1", "num2", "num3");
+console.log(myNumbers);
 
 /*
  * #10
