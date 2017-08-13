@@ -186,7 +186,15 @@ console.log(myWords);
  * Console.log your result.
 */ 
 
-
+function spareChange(money){
+	if (money>100){
+		return "true";
+	}else{
+		return "false"
+	}
+}
+var myMoney = spareChange(101);
+console.log(myMoney);
 
 /*
  * #9
