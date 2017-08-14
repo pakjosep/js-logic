@@ -335,8 +335,20 @@ console.log(mySpeed);
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+var budget = 50;
+var doughnutPrice = 2;
+var doughnutBought = 0;
 
+function buyDoughnut(){
+	if (budget >= doughnutPrice){
+		(budget -= doughnutPrice);
+		(doughnutBought++);
+	}
 
+}
+buyDoughnut();
+console.log("budget", budget);
+console.log("doughnutBought", doughnutBought);
 
 
 /*
