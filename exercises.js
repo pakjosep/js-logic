@@ -260,6 +260,15 @@ console.log(joeNumber);
  * Console.log your result.
 */ 
 
+function daClub(cover, age){
+	if (cover >= 21 && age >= 21){
+		return "Welcome to the Legends Lounge.";
+	}else{
+		return "Chuck E Cheese is across the street."
+	}
+}
+var myInfo = daClub(31, 31);
+console.log(myInfo);
 
 /*
  * #12
