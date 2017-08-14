@@ -283,6 +283,18 @@ console.log(myInfo);
  * Console.log your result.
 */ 
 
+function graduation(credits, thesis){
+	if (credits >=120 || thesis >=120){
+		return "Congratulations on a job well done.";
+}else{
+	return "See you in summer school."
+}
+}
+var joeCredits = 129;
+var joeThesis = 129;
+var myProgress = graduation(joeCredits, joeThesis);
+console.log(myProgress);
+
 
 
 /*
