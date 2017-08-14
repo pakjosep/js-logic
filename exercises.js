@@ -236,7 +236,15 @@ console.log(myNumbers);
  * Console.log your result.
 */ 
 
-
+function evenStevens(num){
+	if (num % 2 == 0){
+		return "true";
+	}else{
+		return "false"
+	}
+}
+var joeNumber = evenStevens(48);
+console.log(joeNumber);
 
 
 /*
