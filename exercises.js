@@ -335,17 +335,20 @@ console.log(mySpeed);
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
-var budget = 50;
-var doughnutPrice = 2;
+var budget = 30;
+var doughnutPrice = 4;
 var doughnutBought = 0;
 
 function buyDoughnut(){
 	if (budget >= doughnutPrice){
-		(budget -= doughnutPrice);
-		(doughnutBought++);
+		budget -= doughnutPrice;
+		doughnutBought++;
 	}
 
 }
+buyDoughnut();
+buyDoughnut();
+buyDoughnut();
 buyDoughnut();
 console.log("budget", budget);
 console.log("doughnutBought", doughnutBought);
@@ -377,6 +380,13 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 4"
  * "Player: 5"
 */
+
+
+for(var i = 1; i <=5; i++){
+	console.log("player", i);
+}
+
+
 
 
 /* 
